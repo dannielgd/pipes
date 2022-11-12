@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'pipes';
+
+  nome = 'Danniel Oliveira';
+  dataAniversario = new Date(1993, 2, 4);
+  preco = 12855.32;
+  troco = 0.57392;
+
 }
